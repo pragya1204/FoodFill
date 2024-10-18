@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Plateful Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(images/background.jpg); /* Placeholder image */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 400px;
+            position: relative;
+        }
+        .login-container h1 {
+            color: #28a745;
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .login-container input[type="email"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .login-container input[type="password"] {
+            margin-top: 0;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #555;
+        }
+        .login-container .links {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .login-container .links a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .login-container .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>FoodFill: Feed the need, not the landfill</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="overlay">
+        <div class="login-container">
+            <h1>Welcome to FoodFill</h1>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button><a href="fyp.html" style="color: black; text-decoration: none;">Sign in </a></button>
+            <div class="links">
+                <a href="#">Forgot Password?</a>
+                <a href="login.html">Create account</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
